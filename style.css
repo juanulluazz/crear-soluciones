@@ -5,6 +5,7 @@ header {
   
 }
 
+
 .primera-interfaz {
     /* padding-top: 50px; */
     height: 90vh;
@@ -29,4 +30,19 @@ header {
 
 .primera-interfaz-cont p {
     font-size: 24px;
+}
+
+
+/* Segunda parte */
+
+.segunda-parte {
+        height: 100vh;
+        background-color: #eb8d07;
+}
+
+
+/* Tercera parte */
+.tercera-parte {
+    height: 100vh;
+ background-color: #474747;
 }
