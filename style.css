@@ -1,6 +1,6 @@
 * {
     font-family: 'Poppins', sans-serif;
-
+  
 }
 header {
     background-color: black;
@@ -32,13 +32,18 @@ header {
     text-align: center;
     background-color: rgba(225, 225, 225, 0.4) ;
     /* height: 80vh; */
+    border-radius: 8px;
     
 }
 
 .primera-interfaz-cont  h2 {
-    font-weight: 900;
+    
+    font-weight:  900;
+    
     font-size: 6vh;
     color: black;
+    padding-top: 8vh;
+    padding-bottom: 10vh;
 
 }
 
@@ -49,10 +54,11 @@ header {
 }
 
 .primera-interfaz-cont p {
+    margin: auto;
+    font-weight: 400; 
     color: black;
     font-size: 24px;
-    text-shadow: black 0.1em 0.1em 0.2em;
-    font-weight: 300;
+    text-shadow: black 0.5em 0.5em 0.9em;
 }
 
 
