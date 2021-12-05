@@ -83,15 +83,33 @@ header {
     color: #474747;
 }
 
+
 #ventajas-parrafo {
     background-color: #eb8d07;
     height: 5vh;
     color: white;
     font-weight: bold;
-    font-size: 1rem;
+    font-size: 30px;
 
 }
 
+.titulo-segunda-parte {
+    font-size: ;
+}
+
+.contenedor-imagenes-steelframe {
+    
+
+}
+
+.borde-caja{
+    border: 1px solid black;
+    border-radius: 10px;
+    /* max-width: 60%; */
+   
+    
+   
+}
 
 /* Tercera parte */
 .tercera-parte {
