@@ -1,1 +1,3 @@
 Cambiar el tamaño del la letra en el  titulo "Contruccion en seco".
+Agregar descripcion a los "alt" de las imagenes
+Cambiar el icono de rapidez de armado

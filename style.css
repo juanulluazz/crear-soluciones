@@ -15,7 +15,7 @@ header {
     /* padding-top: 50px; */
   
     height: auto;
-    background-image: url(img/casa.jpg);
+    background-image: url(img/portada1.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -28,6 +28,8 @@ header {
 
 .primera-interfaz-cont {
     /* margin-top: 3vh; */
+    
+    
     margin: auto;
     text-align: center;
     background-color: rgba(225, 225, 225, 0.4) ;
@@ -43,7 +45,7 @@ header {
     font-size: 6vh;
     color: black;
     padding-top: 8vh;
-    padding-bottom: 10vh;
+    padding-bottom: 5vh;
 
 }
 
@@ -55,19 +57,39 @@ header {
 
 .primera-interfaz-cont p {
     margin: auto;
+    padding: 1vh;
     font-weight: 400; 
     color: black;
     font-size: 24px;
     text-shadow: black 0.5em 0.5em 0.9em;
 }
+.primera-interfaz-pie  {
+    font-weight: 600;
+}
 
+.primera-interfaz-pie span {
+    color: #eb8d07;
+    font-weight: bold;
+}
 
 /* Segunda parte */
 
-.segunda-parte, .cuarta-parte {
+.segunda-parte {
 
-        height: 100vh;
-        background-color: #eb8d07;
+        height: auto;
+
+}
+.segunda-parte p {
+    color: #474747;
+}
+
+#ventajas-parrafo {
+    background-color: #eb8d07;
+    height: 5vh;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+
 }
 
 
