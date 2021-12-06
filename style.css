@@ -62,7 +62,7 @@ nav {
     
     font-weight:  900;
     
-    font-size: 6vh;
+    font-size: 2rem;
     color: black;
     padding-top: 8vh;
     padding-bottom: 5vh;
@@ -108,7 +108,7 @@ nav {
     background-color: #eb8d07;
     height: 5vh;
     color: white;
-    font-weight: bold;
+    font-weight: 500;
     font-size: 30px;
 
 }
@@ -149,4 +149,13 @@ nav {
 
 footer {
     background-color: #474747;
+
+}
+.derechos{
+    background-color: #050033;
+    color: #3c587d;
+
+}
+.derechos #sitioWeb {
+    color: white;
 }
