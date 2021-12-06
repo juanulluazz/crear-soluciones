@@ -11,6 +11,16 @@ header {
   
 }
 
+#navbarSupportedContent a {
+    transition: 0.1s;
+}
+#navbarSupportedContent a:hover {
+    
+  box-shadow: inset 0px -2px 0px 0px #eb8d07;
+  transition: 0.1s;
+    
+}
+
 nav {
     height: 76px;
 }
@@ -123,6 +133,12 @@ nav {
 
 /* Tercera parte */
 .tercera-parte {
-    height: 100vh;
+    /* height: auto; */
  background-color: #474747;
+ color: white;
+}
+
+#carouselExampleSlidesOnly {
+    border-top: 10px solid #eb8d07;
+    border-bottom: 10px solid #eb8d07;
 }
