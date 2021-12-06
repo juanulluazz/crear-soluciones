@@ -132,13 +132,21 @@ nav {
 }
 
 /* Tercera parte */
+
+
 .tercera-parte {
-    /* height: auto; */
- background-color: #474747;
- color: white;
+    background-color: #474747;
+    color: #c8d0d3;
 }
 
 #carouselExampleSlidesOnly {
+    margin: 0;
     border-top: 10px solid #eb8d07;
     border-bottom: 10px solid #eb8d07;
+}
+
+/* Quinta Parte  */
+
+footer {
+    background-color: #474747;
 }
