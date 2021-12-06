@@ -2,12 +2,22 @@
     font-family: 'Poppins', sans-serif;
   
 }
+
 header {
     background-color: black;
-    color: #eb8d07;
-    height: 10vh;
+   
+    
+
   
 }
+
+nav {
+    height: 76px;
+}
+
+/* .navbar-toggler {
+    background-color: #eb8d07;
+} */
 
 /* Primera interdaz // Primera Parte */
 
@@ -92,15 +102,15 @@ header {
     font-size: 30px;
 
 }
-
+/* 
 .titulo-segunda-parte {
     font-size: ;
-}
+} */
 
-.contenedor-imagenes-steelframe {
+/* .contenedor-imagenes-steelframe {
     
 
-}
+} */
 
 .borde-caja{
     border: 1px solid black;
