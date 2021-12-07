@@ -1,27 +1,25 @@
-* {
-    font-family: 'Poppins', sans-serif;
-  
+* 
+{
+    font-family: 'Poppins', sans-serif; 
 }
 
-header {
+header
+{
     background-color: black;
-   
-    
-
-  
 }
 
-#navbarSupportedContent a {
+#navbarSupportedContent a 
+{
     transition: 0.1s;
 }
-#navbarSupportedContent a:hover {
-    
+#navbarSupportedContent a:hover
+{    
   box-shadow: inset 0px -2px 0px 0px #eb8d07;
-  transition: 0.1s;
-    
+  transition: 0.1s;  
 }
 
-nav {
+nav
+{
     height: 76px;
 }
 
@@ -30,10 +28,24 @@ nav {
 } */
 
 /* Primera interdaz // Primera Parte */
+.primera-interfaz-escritorio
+{
+    height: 70vh;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);
+}
 
-.primera-interfaz {
+ .primera-interfaz-escritorio img{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background: no-repeat;
+    background-position: center center;
+    /* box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5); */
+}
+
+.primera-interfaz
+ {
     /* padding-top: 50px; */
-  
     height: auto;
     background-image: url(img/portada1.jpg);
     background-position: center center;
@@ -42,40 +54,35 @@ nav {
     padding-top: 1px;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);
     padding: 3vh;
-  
-    
 }
 
-.primera-interfaz-cont {
+.primera-interfaz-cont 
+{
     /* margin-top: 3vh; */
-    
-    
     margin: auto;
     text-align: center;
     background-color: rgba(225, 225, 225, 0.4) ;
-    /* height: 80vh; */
+    height: 80vh;
     border-radius: 8px;
-    
 }
 
-.primera-interfaz-cont  h2 {
-    
+.primera-interfaz-cont  h2, .primera-interfaz-escritorio h2 
+{
     font-weight:  900;
-    
     font-size: 2rem;
     color: black;
     padding-top: 8vh;
     padding-bottom: 5vh;
-
 }
 
-.primera-interfaz-cont button {
+.primera-interfaz-cont button , .primera-interfaz-escritorio button
+{
     background-color:#eb8d07;
     color: white;
-    
 }
 
-.primera-interfaz-cont p {
+.primera-interfaz-cont p, .primera-interfaz-escritorio p
+{
     margin: auto;
     padding: 1vh;
     font-weight: 400; 
@@ -83,18 +90,31 @@ nav {
     font-size: 24px;
     text-shadow: black 0.5em 0.5em 0.9em;
 }
-.primera-interfaz-pie  {
+.primera-interfaz-pie  
+{
     font-weight: 600;
+    font-size: 20px;  
 }
 
 .primera-interfaz-pie span {
     color: #eb8d07;
     font-weight: bold;
+    font-size: 24px;
 
 }
 .primera-interfaz-pie a {
     text-decoration: none;
     color: black;
+}
+.primera-interfaz-pi p {
+    padding: 0;
+    margin: 0;
+}
+
+#crear-sol
+{
+ font-size: 24px;   
+ color: black;
 }
 
 /* Segunda parte */
@@ -113,8 +133,8 @@ nav {
     background-color: #eb8d07;
     height: 5vh;
     color: white;
-    font-weight: 500;
-    font-size: 30px;
+    font-weight: 600;
+    font-size: 3vh;
 
 }
 .titulo-segunda-parte {
