@@ -90,6 +90,11 @@ nav {
 .primera-interfaz-pie span {
     color: #eb8d07;
     font-weight: bold;
+
+}
+.primera-interfaz-pie a {
+    text-decoration: none;
+    color: black;
 }
 
 /* Segunda parte */
@@ -112,10 +117,22 @@ nav {
     font-size: 30px;
 
 }
-/* 
 .titulo-segunda-parte {
-    font-size: ;
-} */
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+}
+.steel-escritorio {
+    color: black;
+    font-weight: bold;
+    font-size: 24px;
+    
+} 
+
+.steel-responsivo {
+    color: #eb8d07;
+    font-weight: bold;
+}
 
 /* .contenedor-imagenes-steelframe {
     
@@ -145,6 +162,13 @@ nav {
     border-bottom: 10px solid #eb8d07;
 }
 
+/* Cuarta parte */
+.cuarta-parte h2 {
+    color: #eb8d07;
+    font-weight: 900;
+}
+
+
 /* Quinta Parte  */
 
 footer {
@@ -159,3 +183,4 @@ footer {
 .derechos #sitioWeb {
     color: white;
 }
+
