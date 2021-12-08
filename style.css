@@ -229,16 +229,62 @@ nav
 
 footer {
     background-color: #474747;
-
-}
-.derechos{
-    background-color: #050033;
-    color: #3c587d;
-
-}
-.derechos #sitioWeb {
     color: white;
+    font-weight: 500;
+
 }
+footer p:hover {
+    text-decoration: underline #eb8d07;
+}
+footer .icono-footer {
+    /* padding-right: 8px; */
+    height: auto;
+    width: auto;
+    border-radius: 10px;
+    background-color: white;
+}
+
+footer h2 {
+    
+    color: #eb8d07;
+    padding-left: 5px;
+    /* text-shadow: black 0 0.1em 5px; */
+    text-shadow: 0 1px 0.1ch black;
+    font-weight: 600;
+}
+
+
+#derechos {
+	background-color: #050033;
+	padding: 0;
+	height: 52px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+#derechos p {
+	margin: 0;
+	text-align: center;
+	color: #426184;
+	font-size: 15px;
+}
+
+#derechos p span {
+	color: white;
+}
+
+#derechos p a {
+	color: #426184;
+}
+
+#derechos p a img {
+	width: 20px;
+	margin-top: 4px;
+}
+/* Mobile */
+
 
 
 
@@ -256,7 +302,7 @@ footer {
 
 
 @media (max-width: 450px) {
-    .cuarta-parte-etapas #lista-color li  {
+    .cuarta-parte-etapas #lista-color   {
         color: #474747;
     }
     .cuarta-parte-etapas ul .lista-blanca  {
