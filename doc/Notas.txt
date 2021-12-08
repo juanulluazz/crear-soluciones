@@ -2,6 +2,8 @@ Cambiar el tamaño del la letra en el  titulo "Contruccion en seco".
 Agregar descripcion a los "alt" de las imagenes
 Cambiar el icono de rapidez de armado
 Faltan imagenes de la presentacion de la estructura del servicio.
-Acomodar la posicion de los items 	
+Acomodar la posicion de los items
+ajustar la responsividad del apartado de "decks" 	
 
 Utilizar z-index para posicionar la imegen de portada sobre el navegador?
+ ver Acomodar SEO - https://www.mclibre.org/consultar/htmlcss/html/html-secciones.html

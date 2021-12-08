@@ -209,8 +209,19 @@ nav
 
 /* Cuarta parte */
 .cuarta-parte h2 {
+    font-size: 32px;
     color: #eb8d07;
-    font-weight: 900;
+    font-weight: 600;
+}
+
+.cuarta-parte-etapas li {
+
+    margin: 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.cuarta-parte-etapas li:hover{
+    color: white;
 }
 
 
@@ -239,4 +250,19 @@ footer {
     color: #eb8d07;
     
     transition: 0.2s;
+}
+
+
+
+
+@media (max-width: 450px) {
+    .cuarta-parte-etapas #lista-color li  {
+        color: #474747;
+    }
+    .cuarta-parte-etapas ul .lista-blanca  {
+        color: white;
+    }
+    #proyectos-servicios {
+        text-decoration: underline black; 
+    }
 }
