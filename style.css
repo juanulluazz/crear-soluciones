@@ -87,7 +87,7 @@ nav
 {
     margin: auto;
     padding: 1vh;
-    font-weight: 400; 
+    font-weight: medium; 
     color: black;
     font-size: 24px;
     text-shadow: black 0.5em 0.5em 0.9em;
@@ -312,5 +312,13 @@ footer h2 {
     }
     #proyectos-servicios {
         text-decoration: underline black; 
+    }
+    .primera-interfaz-cont p {
+        font-size: 22px;
+     
+    }
+    .primera-interfaz-cont button {
+  
+        margin-top: 10px;
     }
 }
