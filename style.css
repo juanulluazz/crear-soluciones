@@ -60,10 +60,11 @@ nav
 {
     position: relative;
     /* margin-top: 3vh; */
-    margin: auto;
+    height: auto;
+    
     text-align: center;
     background-color: rgba(225, 225, 225, 0.4) ;
-    height: 80vh;
+   
     border-radius: 8px;
 }
 
@@ -73,7 +74,7 @@ nav
     font-size: 2rem;
     color: black;
     padding-top: 8vh;
-    padding-bottom: 5vh;
+    /* padding-bottom: 5vh; */
 }
 
 .primera-interfaz-cont button , .primera-interfaz-escritorio button
