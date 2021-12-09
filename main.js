@@ -15,9 +15,10 @@ let tween = gsap.from(".scrollPrueba", {x:-50, duration: 1.5, opacity: 0,}),
       tl.from('.contenedor-animacion', {
         y: '50%',
         opacity: 0,
-        duration: 1.7,
+        duration: 1,
         ease: Power4.easeOut,
-      })
+      }
+      );
   
 
     //   let dos = gsap.to(".animacion", {y:-200}),
@@ -28,82 +29,83 @@ let tween = gsap.from(".scrollPrueba", {x:-50, duration: 1.5, opacity: 0,}),
     //       animation: tween
     //     });
 
-        gsap.from('.animacion1', {
+        tl.from('.animacion1', {
             scrollTrigger: {
               trigger: '.animacion',
               start: 'top center',
             },
-            y: 150,
+            y: 100,
             opacity: 0,
-            duration: 1,
+            duration: 0.8,
             stagger: .6,
     
-          }),
-    
+          },'-=1'
+          );
+      
 
-          gsap.from('.animacion2', {
+          tl.from('.animacion2', {
             scrollTrigger: {
               trigger: '.animacion',
               start: 'top center',
             },
-            y: 150,
+            y: 100,
             opacity: 0,
-            duration: 1,
+            duration: 0.8,
             stagger: .6,
     
-          }),
-          gsap.from('.animacion3', {
+          },'-=0.6' );
+          tl.from('.animacion3', {
             scrollTrigger: {
               trigger: '.animacion',
               start: 'top center',
             },
-            y: 150,
+            y: 100,
             opacity: 0,
-            duration: 1,
+            duration: 0.8,
             stagger: .6,
     
-          }),
-          gsap.from('.animacion4', {
+        },'-=0.6' );
+          tl.from('.animacion4', {
             scrollTrigger: {
               trigger: '.animacion',
               start: 'top center',
             },
-            y: 150,
+            y: 100,
             opacity: 0,
-            duration: 1,
+            duration: 0.8,
             stagger: .6,
     
-          }),
-          gsap.from('.animacion5', {
+        },'-=0.6' );
+          tl.from('.animacion5', {
             scrollTrigger: {
               trigger: '.animacion',
               start: 'top center',
             },
-            y: 150,
+            y: 100,
             opacity: 0,
-            duration: 1,
+            duration: 0.8,
             stagger: .6,
     
-          }),
-          gsap.from('.animacion6', {
+        },'-=0.6' );
+          tl.from('.animacion6', {
             scrollTrigger: {
               trigger: '.animacion',
               start: 'top center',
             },
-            y: 150,
+            y: 100,
             opacity: 0,
-            duration: 1,
+            duration: 0.8,
             stagger: .6,
     
-          }),
-          gsap.from('.animacion7', {
+        },'-=0.6' );
+          tl.from('.animacion7', {
             scrollTrigger: {
               trigger: '.animacion',
               start: 'top center',
             },
-            y: 150,
+            y: 100,
             opacity: 0,
-            duration: 1,
+            duration: 0.8,
             stagger: .6,
     
-          })
+        },'-=0.6' );
