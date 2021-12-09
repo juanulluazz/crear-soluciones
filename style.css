@@ -31,7 +31,7 @@ nav
 .primera-interfaz-escritorio
 {
     height: 70vh;
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);
+    /* box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5); */
 }
 
  .primera-interfaz-escritorio img{
@@ -40,7 +40,7 @@ nav
     background-size: cover;
     background: no-repeat;
     background-position: center center;
-    /* box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5); */
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);
 }
 
 .primera-interfaz
@@ -58,6 +58,7 @@ nav
 
 .primera-interfaz-cont 
 {
+    position: relative;
     /* margin-top: 3vh; */
     margin: auto;
     text-align: center;
