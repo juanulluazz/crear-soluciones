@@ -11,6 +11,7 @@ header
 #navbarSupportedContent a 
 {
     transition: 0.1s;
+    
 }
 #navbarSupportedContent a:hover
 {    
@@ -23,6 +24,7 @@ nav
     height: 76px;
 }
 
+
 /* .navbar-toggler {
     background-color: #eb8d07;
 } */
@@ -30,6 +32,7 @@ nav
 /* Primera interdaz // Primera Parte */
 .primera-interfaz-escritorio
 {
+    
     height: 70vh;
     /* box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5); */
 }
@@ -59,11 +62,12 @@ nav
 .primera-interfaz-cont 
 {
     position: relative;
+    z-index: 1;
     /* margin-top: 3vh; */
     height: auto;
     
     text-align: center;
-    background-color: rgba(225, 225, 225, 0.4) ;
+    background-color: rgba(225, 225, 225, 0.6) ;
    
     border-radius: 8px;
 }
@@ -315,10 +319,16 @@ footer h2 {
     }
     .primera-interfaz-cont p {
         font-size: 22px;
-     
+        padding: 3px;
     }
     .primera-interfaz-cont button {
   
         margin-top: 10px;
+    }
+    .hamburguesa {
+        width: 100vw;
+
+        background-color: black;
+        z-index: 3;
     }
 }
