@@ -212,12 +212,12 @@ nav
 }
 
 
-.imagenes-eifs img{
+/* .imagenes-eifs img{
     
 
 
    
-}
+} */
 .imagenes-eifs p {
     box-shadow: inset 2px 0px 0px 0px #eb8d07;
     padding: 10px;
@@ -261,6 +261,17 @@ nav
 }
 .cuarta-parte-etapas li:hover{
     color: white;
+}
+
+.imgnormalizada img {
+  
+    width: auto;
+    height: 350px;
+    max-height: 350px;
+    
+}
+.borderRadius {
+    border-radius: 10px;
 }
 
 

@@ -3,13 +3,32 @@ const tl = gsap.timeline({
     repeat: 0,
 })
 
-let tween = gsap.from(".scrollPrueba", {x:-50, duration: 1.5, opacity: 0,}),
-    st = ScrollTrigger.create({
-        trigger: ".scrollPrueba",
-        start: "top center",
-        end: "+=50",
-        animation: tween
-      });
+// let tween = gsap.from(".scrollPrueba", {x:-50, duration: 1, opacity: 0,}),
+//     st = ScrollTrigger.create({
+//         trigger: ".quinta-parte",
+//         start: "top center",
+//         end: "+=50",
+//         animation: tween
+//       });
+
+
+gsap.from('.scrollPrueba', {
+    scrollTrigger: {
+      trigger: '.disparadorFooter',
+        start: "center center",
+      end: ()=> '+=',
+      markers: true,
+    },
+    x: -50,
+    // y: 100,
+    opacity: 0,
+    duration: 1,
+    // stagger: .6,
+
+  });
+
+
+    
 
 
       tl.from('.contenedor-animacion', {
