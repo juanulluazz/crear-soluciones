@@ -321,9 +321,19 @@ nav
 
 /* Quinta Parte  */
 
+.contenedor-social-responsivo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+
 .contenedor-social {
     padding-top: 30px;
     color: #c8d0d3!important;
+
    
    
 }
@@ -369,6 +379,7 @@ footer h2 {
     /* text-shadow: black 0 0.1em 5px; */
     text-shadow: 0 1px 0.1ch black;
     font-weight: 600;
+    font-size: 50px;
 }
 
 
@@ -395,6 +406,7 @@ footer h2 {
 
 #derechos p a {
 	color: #426184;
+    border-bottom: none; 
 }
 
 #derechos p a img {
@@ -451,4 +463,11 @@ footer h2 {
     .parrafo-eifs {
         text-align: start!important;
     }
+
+    footer h2 {
+        font-size: 26px;
+    }
+    /* footer a {
+        font-size: 50px;
+    } */
 }
