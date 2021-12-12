@@ -48,11 +48,11 @@
     
 <!-- Primera parte / Presentacion -->
     
-<section class="">
+<section class="contenedor-primera-interfaz">
 
     <!-- Modo Responsivo -->
     <div class="primera-interfaz d-lg-none">    <!-- CONTENEDOR CON BACKGROUND-IMAGE -->
-        <div class="justify-content-center align-items-center  primera-interfaz-cont z-index-2">
+        <div class="justify-content-center py-1 align-items-center  primera-interfaz-cont z-index-2">
             <h2 class="m-1 text-center animacion1">CONSTRUCCIÓN <br> EN SECO</h2>  
             <p class="animacion1 text-center">Steel Frame</p>
             <p class="animacion2 text-center">Sistemas EIFs</p>
@@ -60,7 +60,7 @@
             <p class="animacion4 text-center">Tabiques y Aislaciones</p>
             <p class="animacion5 text-center">Deck en PVC</p>
             <p class="animacion6 text-ecenter">Cielorrasos</p>
-            <button class="btn btn-lg mb-5 rounded animacion7 ">CONTÁCTANOS</button>
+            <button class="btn btn-lg mb-5 mx-auto  rounded animacion7 boton">CONTÁCTANOS</button>
         </div>
     </div>    
 
@@ -68,7 +68,7 @@
 <div class=" d-none d-lg-block  ">
     <!-- <div class="container"> -->
     <div class="row primera-interfaz-escritorio mx-0">
-        <div class="col-6 contenedor-animacion">
+        <div class="col-6 contenedor-animacion  escritorio" >
             <h2 class="m-2 animacion1 text-center pb-lg-5">CONSTRUCCIÓN <br> EN SECO</h2>  
             <p class="animacion1 text-start" >Steel Frame</p>
             <p class="animacion2 text-end">Sistemas EIFs</p>
@@ -76,8 +76,9 @@
             <p class="animacion4 text-end">Tabiques y Aislaciones</p>
             <p class="animacion5 text-start">Deck en PVC</p>
             <p class="animacion6 text-end">Cielorrasos</p>
-            <button class="btn btn-lg m-5 rounded animacion7 ">CONTÁCTANOS</button>
-
+            <div class="my-5">
+            <button class="btn btn-lg mx-auto rounded animacion7 align-self-center ">CONTÁCTANOS</button>
+            </div>
         </div>
         <div class="col-6  primera-interfaz-escritorio p-0">
             <img src="img/portada1.jpg" alt="Portada">
@@ -94,11 +95,13 @@
     <p style="color: black;font-weight: 500;"> Una empresa dedidacada a brindar soluciones a medida para cada cliente.</p>
     <img class="animate__animated animate__shakeX  animate__infinite  animate__slower" style="width: 26px;"  src="img/arror.png" alt="">
     <a href="#proyectos-servicios" class="enlaces mx-2"> Explora nuestros proyectos</a>
-</div>
     
+</div>
+
+<div class="container d-lg-none my-5" style="background-color: #eb8d07; height: 4px; width: 60%; border-radius: 8px;"></div> <!-- Divisor de partes -->
 <!-- Aprtado Steel Frame -->
 
-<div class="container text-center my-2 d-none d-lg-block ">
+<div class="container text-center  d-none d-lg-block " style="margin-bottom: 50px;">
     <h2  class="my-4" style="color: black;border-bottom: 4px solid #c8d0d3; display: inline-block; border-radius: 4px ;font-weight: 600;">Steel Framing</h2>
     <p style="color: #474747;">El Steel Framing es un sistema de construcción en seco 
         <br>formado por un entramado de perfiles de acero galvanizado.</p>
@@ -113,7 +116,7 @@
 
 <div class="d-flex  justify-content-center my-4" id="ventajas-parrafo"><p>Ventajas del sistema</p></div>
 
-<section class="container segunda-parte">  <!-- contenedor de los iconos -->    
+<section class="container segunda-parte mt-5">  <!-- contenedor de los iconos -->    
     <div class="row text-center my-2">
         <div class="col-12 col-sm-6">
             <h3>AISLACIÓN ACÚSTICA</h3>
@@ -164,7 +167,7 @@
 
 <!-- Segunda partes // Imagenes de Steel frame -->
 
-<p class="text-center titulo-segunda-parte d-none d-lg-block " style="font-weight: 500;font-size: 40px;">Como esta compuesto el 
+<p class="text-center titulo-segunda-parte d-none d-lg-block " style="font-weight: 500;font-size: 40px; ">Como esta compuesto el 
     <span class="steel-escritorio " style="font-size: 40px;" > <i> SISTEMA STEEL FRAME </i></span> 
 </p>
 
@@ -204,7 +207,7 @@
 </div>
 
 <div class="container imagenes-eifs ">
-    <div class="row align-items-center  d-flex">
+    <div class="row align-items-center  d-flex ">
         <div class="col-12 col-sm-6">
 
             <p class="text-end parrafo-eifs" style="box-shadow: none;color: black;font-weight: 500;">Es un sistema de aislación multicapa que permite realizar revestimientos exteriores tanto en construcciones nuevas como en renovaciones.</p>
@@ -217,7 +220,7 @@
 </div>
 <div class="container imagenes-eifs ">
     <div class="row  ">
-        <div class="col-12 col-sm-6 py-4">
+        <div class="col-12 col-sm-6 pb-4">
     <p>Al ser un  sistema de rápida colocación podemos recortar notoramiente los tiempos con respecto a una construccion tradicional, reduciendo los gastos de la obra.</p>
     <div class="container d-lg-none my-5" style="background-color: #eb8d07; height: 4px; width: 60%; border-radius: 8px;"></div> <!-- Divisor de partes -->
     <p>Aporta la resistencia térmica (frio/calor) necesaria al cerramiento de la vivienda, minimizando los puentes térmicos.</p>
@@ -247,8 +250,8 @@
 
 <!-- Tercera parte / Decks en  PVC -->
 
-<div class=" text-center tercera-parte d-lg-none">
-    <h2  style="color: white; font-weight: 600;">Decks en PVC</h2>
+<div class=" d-flex justify-content-center align-items-center  tercera-parte d-lg-none mb-0 " style="height: 50px;">
+    <h2  style="color: white; font-weight: 600;  margin-bottom: 0;">Decks en PVC</h2>
 </div>
 
 <!-- Parte Responsiva -->
@@ -286,23 +289,28 @@
     </div>
 
     <div class="container text-center p-3">   
-        <h3 style="color: white; font-weight: 600;">Beneficios</h3>
-        <p>Garantizan su alto desempeño y eliminan la necesidad de  <br>
-         instalaciones y mantenimientos especializados y costosos. <br >
+        <h3 style="color: white; font-weight: 600;" class="d-lg-none">Beneficios</h3>
+        <h3 style="color: white; font-weight: 600;" class="d-none d-lg-block">Decks en PVC</h3>
+        <!-- <p>Garantizan su alto desempeño y eliminan la necesidad de  <br>
+         instalaciones y mantenimientos especializados y costosos. <br class="mb-2">
         Alta resistencia al impacto. No se astilla ni deforma al 
-        <br class="mt-2"> soportar golpes fuertes <br>
+        <br class="mt-2"> soportar golpes fuertes <br class="mb-2">
         No se ve afectado por ataquesde plagas o insectos. <br class="mt-2">
         Resistente a los agentes atmosféricos y biológicos. <br class="mt-2"> 
         Su propiedad no absorbente evita que los líquidos se filtren y <br class="mt-2" >
-        sean almacenados en el material, otorgándole grandes <br>
+        sean almacenados en el material, otorgándole grandes <br class="mb-4">
         ventajas frente a manchas, acumulación de bacterias o moho,
-        <br> respecto a decks de madera o compuestos.</p>
-
-    <!-- <p>Garantizan su alto desempeño y eliminan la necesidad de instalaciones y mantenimientos especializados y costosos.</p>
+        <br> respecto a decks de madera o compuestos.</p> -->
+        
+    <p>Garantizan su alto desempeño y eliminan la necesidad de  <br class="d-none d-lg-block" >
+        instalaciones y mantenimientos especializados y costosos.</p>
     <p>Alta resistencia al impacto. No se astilla ni deforma al soportar golpes fuertes</p>
     <p> No se ve afectado por ataquesde plagas o insectos.</p>
     <p>Resistente a los agentes atmosféricos y biológicos.</p>
-    <p>Su propiedad no absorbente evita que los líquidos se filtren y sean almacenados en el material, otorgándole grandes ventajas frente a manchas, acumulación de bacterias o moho, respecto a decks de madera o compuestos.</p> -->
+    <p>Su propiedad no absorbente evita que los líquidos se filtren y <br class="d-none d-lg-block" >
+        sean almacenados en el material, otorgándole grandes <br <br class="d-none d-lg-block">
+        ventajas frente a manchas, acumulación de bacterias o moho,
+        <br> respecto a decks de madera o compuestos.</p>
 
     </div>
     <div class="container d-none d-lg-block pb-5">
@@ -345,6 +353,7 @@
 </section>
 
 <!-- Cuarta parte / Etapas del proyecto -->
+
 <div class="d-lg-none text-center ">
     <p style="color: black; font-size: 24px;font-weight: bold;">Coordinamos todas las etapas del proyecto</p>
 </div>
@@ -352,8 +361,9 @@
     <div class="container pb-4">
         <div class="row mx-0 align-items-center justify-content-center">
             <div class="col-12 col-sm-5" >
-        <p class="d-none d-lg-block mt-5 text-center" style="color: black;font-weight: 600;font-size: 24;">Coordinamos todas las etapas <br> del <span style="color: white;">proyectos</span></p>
-        <ul class="" id="lista-color" style="color: #474747;">
+        <p class="d-none d-lg-block mt-5 text-center" style="color: black;font-weight: 600;font-size: 24px;">Coordinamos todas las etapas <br> del <span style="color: white;">proyectos</span></p>
+        
+        <ul class="pt-4" id="lista-color" style="color: #474747;">
             <li><span class="lista-blanca">Planificacion</span></li>
             <li class="d-lg-none" ><span class="lista-blanca d-lg-none">Dirigimos la obra con el recurso humano indicado para cada situación</span></li>
             <li class="d-none d-lg-block"><span class="lista-blanca ">Dirigimos la obra con el recurso humano <br> indicado para cada  situación</span></li>
@@ -397,8 +407,8 @@
 
 <!-- Cuarta parte / "Explorar proyectos" -->
 
-<section>
-    <p>Explora nuestras entregas</p>
+<section class="cuarta-parte-explorar ">
+    <p class="text-center">Explora nuestras entregas</p>
     <div class="carousel-m center-align">
         <div class="carousel-item">
             <h3>Ampliaciones domiciliarias</h3>
@@ -435,7 +445,7 @@
 
             <div class="col-12 col-sm-5 " id="quinta-parte-pie">  
                 <!-- Parte responsiva -->
-                <div class="d-lg-none text-center subrayado " style="font-weight: 500;text-decoration: underline;">
+                <div class="d-lg-none text-center  " style="font-weight: 500;text-decoration: underline;">
                         <img  class="img-fluid" src="iconos/whatBlanco.svg" alt="">
                        
                         <p>+54 3329 33-1080</p>
@@ -447,16 +457,22 @@
                         <p>info@crearsolucionessanpedro.com.ar</p>
                 </div>
                 <!-- Parte de escritorio -->
-                <div class="d-flex justify-content-center align-items-center d-none d-lg-block  subrayado" style="font-weight: 500;text-decoration: underline;">
+                <div class="d-flex justify-content-center align-items-center d-none d-lg-block  " style="font-weight: 500;margin-left: 100px;">
+                    <div class="contenedor-social">
                     <img  class="img-fluid" src="iconos/whatBlanco.svg" alt="">
-                   
-                    <p>+54 3329 33-1080</p>
-           
+                    <a href="#">+54 3329 33-1080</a>
+                    
+                </div>
+                    <div class="contenedor-social">
                     <img class="img-fluid" src="iconos/instragramBlanco.svg" alt="">
-                    <p>@crearsoluciones.sp</p>
-         
+                    <a href="#">@crearsoluciones.sp</a>
+                </div>
+
+                    <div class="contenedor-social">
                     <img class="img-fluid" src="iconos/mailIconBlanco.svg" alt="">
-                    <p>info@crearsolucionessanpedro.com.ar</p>
+                    <a href="#">info@crearsolucionessanpedro.com.ar</a>
+                </div>
+
             </div>
             </div>
         </div> 

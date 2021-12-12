@@ -15,7 +15,7 @@ const tl = gsap.timeline({
 gsap.from('.scrollPrueba', {
     scrollTrigger: {
       trigger: '.disparadorFooter',
-        start: "center center",
+        start: "top center",
       end: ()=> '+=',
       markers: true,
     },
@@ -58,7 +58,7 @@ gsap.from('.scrollPrueba', {
             duration: 0.8,
             stagger: .6,
     
-          },'-=1'
+          },'-=0.8'
           );
       
 
@@ -72,7 +72,11 @@ gsap.from('.scrollPrueba', {
             duration: 0.8,
             stagger: .6,
     
-          },'-=0.6' );
+          },'-=0.8' 
+          );
+
+
+
           tl.from('.animacion3', {
             scrollTrigger: {
               trigger: '.animacion',
@@ -83,7 +87,7 @@ gsap.from('.scrollPrueba', {
             duration: 0.8,
             stagger: .6,
     
-        },'-=0.6' );
+        },'-=0.8' );
           tl.from('.animacion4', {
             scrollTrigger: {
               trigger: '.animacion',
@@ -94,7 +98,7 @@ gsap.from('.scrollPrueba', {
             duration: 0.8,
             stagger: .6,
     
-        },'-=0.6' );
+        },'-=0.8' );
           tl.from('.animacion5', {
             scrollTrigger: {
               trigger: '.animacion',
@@ -105,7 +109,7 @@ gsap.from('.scrollPrueba', {
             duration: 0.8,
             stagger: .6,
     
-        },'-=0.6' );
+        },'-=0.8' );
           tl.from('.animacion6', {
             scrollTrigger: {
               trigger: '.animacion',
@@ -116,7 +120,7 @@ gsap.from('.scrollPrueba', {
             duration: 0.8,
             stagger: .6,
     
-        },'-=0.6' );
+        },'-=0.8' );
           tl.from('.animacion7', {
             scrollTrigger: {
               trigger: '.animacion',
@@ -127,4 +131,4 @@ gsap.from('.scrollPrueba', {
             duration: 0.8,
             stagger: .6,
     
-        },'-=0.6' );
+        },'-=1' );
