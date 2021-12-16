@@ -6,6 +6,7 @@
 header
 {
     background-color: black;
+    height: 7px6;
 }
 
 #navbarSupportedContent{
@@ -28,11 +29,6 @@ header
   transition: 0.1s;  
 }
 
-nav
-{
-    height: 76px;
-    box-sizing: border-box;
-}
 
 
 /* .navbar-toggler {
@@ -42,7 +38,7 @@ nav
 /* Primera interdaz // Primera Parte */
 
 .contenedor-primera-interfaz {
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 .primera-interfaz-escritorio
