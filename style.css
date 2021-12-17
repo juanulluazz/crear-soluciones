@@ -6,7 +6,7 @@
 header
 {
     background-color: black;
-    height: 7px6;
+    /* height: ; */
 }
 
 #navbarSupportedContent{
@@ -481,9 +481,7 @@ footer h2 {
         text-align: center;
        
     }
-    #imagenesResponsivas {
-     
-    }
+    
     .parrafo-eifs {
         text-align: start!important;
     }

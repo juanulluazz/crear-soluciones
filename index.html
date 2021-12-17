@@ -14,6 +14,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;600;900&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,800;0,900;1,900&display=swap" rel="stylesheet">  
+    <link rel="icon" href="img/logo.png">
 
 </head>
 <body>
@@ -23,9 +24,12 @@
         <nav class="container  navbar navbar-expand-lg navbar-dark text-start" >
             <a href="index.html" > 
                 <img class="img-fluid ms-3 " width="64" height="32" src="img/logo.png" alt="">
-            <a class="navbar-brand" style="color:#eb8d07" href="index.html">Crear Soluciones</a>
+            <a class="navbar-brand me-0" style="color:#eb8d07" href="index.html">Crear Soluciones</a>
             <button class="navbar-toggler me-3 " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon "></span>
+                
+                    
+                </div>
             </button>
             <div class="collapse navbar-collapse text-end hamburguesa   " id="navbarSupportedContent" ">
                 <ul class="navbar-nav " style="margin-left: auto;"> 
@@ -33,14 +37,14 @@
                     <a class="nav-link " aria-current="page" href="#crear-sol">Inicio</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#proyectos-servicios">Nuestros Proyectos</a>
+                    <a class="nav-link" href="#proyectos-servicios" style="margin-left: 50px;">Nuestros Proyectos</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#contacto">Contacto</a>
+                    <a class="nav-link" href="#contacto" style="margin-left: 50px;">Contacto</a>
                   </li>
                 </ul>
-                <a href="#" class="d-none d-lg-block">
-                    <img src="iconos/whatsappicon.svg" alt="">
+                <a href="#" class="d-none d-lg-block" style="box-shadow: none;margin-left: 100px;">
+                    <img src="iconos/whatsappicon.svg" alt="iconoWhatsapp" width="54" height="64">
                 </a>
             </div>
         </nav>
@@ -132,8 +136,8 @@
 <div class="d-flex  justify-content-center my-4" id="ventajas-parrafo"><p>Ventajas del sistema</p></div>
 
 <section class="container segunda-parte mt-5">  <!-- contenedor de los iconos -->    
-    <div class="row text-center my-2">
-        <div class="col-12 col-sm-6">
+    <div class="row text-center my-2 ">
+        <div class="col-12 col-sm-6  fila-animada">
             <h3>AISLACIÓN ACÚSTICA</h3>
             <img class="p-2" src="./iconos/iconoAislacionAcustica.svg" alt="iconoAislacionAcustica">
             <p>Mayor aislación sonora que la construcción tradicional. Disminuye el ruido proveniente del exterior y entre los mismos ambientes.</p>
@@ -144,7 +148,7 @@
             <p>Mejora notablemente el comportamiento térmico interior, haciendo imperceptible la temperatura del exterior.</p>
         </div>
     </div>
-    <div class="row text-center my-2">
+    <div class="row text-center my-2 fila-animada2">
         <div class="col-12 col-sm-6 ">
             <h3>AHORRO ENERGÉTICO</h3>
             <img class="p-2" src="./iconos/iconoAhorraEnergetico.svg" alt="iconoAhorroEnergetico">
@@ -156,7 +160,7 @@
             <p>Reducción del tiempo de obra entre 30% y 60%.</p>
         </div>
     </div>
-    <div class="row text-center my-3">
+    <div class="row text-center my-3 fila-animada3">
         <div class="col-12 col-sm-6">
             <h3>MAYOR SOLIDEZ</h3>
             <img class="p-2" src="./iconos/iconoMayorSolidez.svg" alt="iconoMayorFluidez">
@@ -169,7 +173,7 @@
         </div>
     </div>
 <!-- Este contenedor aparece solo en pantallas de escritorio -->
-    <div class="d-none p-3 d-lg-block  container text-center ">
+    <div class="d-none p-3 d-lg-block  container text-center fila-animada4">
         <h3>COSTOS FIJOS</h3>
         <img class="p-2" src="./iconos/iconoRapidezDeArmado.svg" alt="iconoCostosFijos" width="111" height="109">
         <p style="color:black;font-size: 24px;">El sistema constructivo es mensurable y no vas a tener desvío de obra.</p>
@@ -213,29 +217,17 @@
 
 <!-- Segunda parte bis / Sistema Eifs -->
 
-
-
-
-
-
-
-
-
-
-
-<div class=" imagenes-eifs-primera   d-lg-none  ">
+<div class=" imagenes-eifs-primera   d-lg-none mb-2 ">
     <div class="segunda-parte-bis mb-2 d-flex scrollPrueba3 align-items-center justify-content-end ">
-    
         <h3  class="me-3 sist-eifs">Sistema <span style="color: white;">EIF S</span></h3>
     </div>
-    <div class="row align-items-center  d-flex ">
-        <div class="col-12 col-sm-6">
-
+    <div class="row align-items-center  d-flex justify-content-center ">
+        <div class="col-12 col-sm-6 mb-3">
             <p class="text-end parrafo-eifs" style="box-shadow: none;color: black;font-weight: 600;">Es un sistema de aislación multicapa que permite realizar revestimientos exteriores tanto en construcciones nuevas como en renovaciones.</p>
         </div>
-        <div class="col-12 col-sm-6 d-flex justify-content-center align-items-center">
+        <div class="col-12 col-sm-6  w-75 mb-1">
 
-            <img class="img-fluid" src="img/eifs1.jpg" alt="">
+            <img class="img-fluid" src="img/eifs1.jpg" alt="eifs1" >
         </div>
     </div>
 </div>
@@ -250,19 +242,17 @@
             <h3  class="pe-3 sist-eifs "  >Sistema <span style="color: white;">EIF S</span></h3>
         </div>
         
-        <div class="col-12 col-sm-6 d-flex flex-column justify-content-center ">
-            <div class="mb-5">
-                <p class="text-end parrafo-eifs pb-5 d-none d-lg-block" style="box-shadow: none;color: black;font-weight: 600;">Es un sistema de aislación multicapa que permite realizar revestimientos exteriores tanto en construcciones nuevas como en renovaciones.</p>
+        <div class="col-12 col-sm-6 d-flex flex-column justify-content-center ">            
+            <p class="text-end parrafo-eifs  pt-0 mb-3 d-none d-lg-block" style="box-shadow: none;color: black;font-weight: 600; padding-bottom: 120px;">Es un sistema de aislación multicapa que permite realizar revestimientos exteriores tanto en construcciones nuevas como en renovaciones.</p>
     
-            </div>
     <p>Al ser un  sistema de rápida colocación podemos recortar notoramiente los tiempos con respecto a una construccion tradicional, reduciendo los gastos de la obra.</p>
-    <div class="container d-lg-none my-3" style="background-color: #eb8d07; height: 4px; width: 60%; border-radius: 8px;"></div> <!-- Divisor de partes -->
+    <div class="container d-lg-none my-4 " style="background-color: #eb8d07; height: 4px; width: 60%; border-radius: 8px;"></div> <!-- Divisor de partes -->
     <p>Aporta la resistencia térmica (frio/calor) necesaria al cerramiento de la vivienda, minimizando los puentes térmicos.</p>
-    <div class="container d-lg-none my-3" style="background-color: #eb8d07; height: 4px; width: 60%; border-radius: 8px;"></div> <!-- Divisor de partes -->
+    <div class="container d-lg-none my-4" style="background-color: #eb8d07; height: 4px; width: 60%; border-radius: 8px;"></div> <!-- Divisor de partes -->
     <p>Dada su alta resistencia como asilante térmico, los ambientes permanecen resguardados de las condiciones climáticas.</p>
-    <div class="container d-lg-none my-3" style="background-color: #eb8d07; height: 4px; width: 60%; border-radius: 8px;"></div> <!-- Divisor de partes -->
+    <div class="container d-lg-none my-4" style="background-color: #eb8d07; height: 4px; width: 60%; border-radius: 8px;"></div> <!-- Divisor de partes -->
     <p>Resistente al impacto superficial.</p>
-    <div class="container d-lg-none my-3" style="background-color: #eb8d07; height: 4px; width: 60%; border-radius: 8px;"></div> <!-- Divisor de partes -->
+    <div class="container d-lg-none my-4" style="background-color: #eb8d07; height: 4px; width: 60%; border-radius: 8px;"></div> <!-- Divisor de partes -->
     <p>Gran variedad de acabados.</p>
 
     </div>
@@ -486,12 +476,12 @@
 
 <!-- Quinta parte / Pie de pagina -->
 
-<footer class="quinta-parte " id="contacto">
+<footer class="quinta-parte  " id="contacto">
     <div class="container ">
         <div class="row mt-5 py-5">
             <div class="col-12 col-sm-5  ">
-                <div class="d-flex align-items-center ">
-                    <img class="img-fluid icono-footer scrollPrueba" src="img/logo.png" alt="">
+                <div class="d-flex align-items-center scrollPrueba">
+                    <img class="img-fluid icono-footer " src="img/logo.png" alt="">
                     <h2> Crear Soluciones</h2>
                 </div>  
                 <p class="pt-5 text-start" style="font-weight: 600;">Contactate con nosotros y recibi una cotización directa</p>
