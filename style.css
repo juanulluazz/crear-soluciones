@@ -175,7 +175,16 @@ header
     font-size: 3vh;
     
 }
-.segunda-parte-bis, .segunda-parte-bis-bis {
+.scrollPrueba3 {
+    
+     height: 50px;
+    width: 50%;
+    background-color: #eb8d07;
+    border-top-right-radius: 100px 120px;
+    border-bottom-right-radius:  100px 120px;
+
+}
+.segunda-parte-bis-bis {
     height: 38px;
     width: 30%;
     background-color: #eb8d07;
@@ -189,7 +198,6 @@ header
     
     
     
-    
 }
 .contenedor-imagenes-steelframe
 {
@@ -199,7 +207,7 @@ header
     padding-right: 3vh;
 }
 
-#sist-eifs {
+.sist-eifs {
     color: black;
     font-weight: 600;
     padding-top: 5px;
@@ -468,10 +476,13 @@ footer h2 {
         background-color: black;
         z-index: 3;
     }
-    .imagenes-eifs p {
+    .imagenes-eifs-primera p {
         box-shadow: none;
         text-align: center;
        
+    }
+    #imagenesResponsivas {
+     
     }
     .parrafo-eifs {
         text-align: start!important;

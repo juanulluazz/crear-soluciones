@@ -32,7 +32,7 @@ gsap.from('.scrollPrueba', {
       trigger: '.detonadorEifs',
         start: "top center",
       end: ()=> '+=',
-      markers: true,
+      // markers: true,
     },
     x: -50,
     // y: 100,
