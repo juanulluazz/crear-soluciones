@@ -175,12 +175,16 @@ header
     font-size: 3vh;
     
 }
-.segunda-parte-bis {
+.segunda-parte-bis, .segunda-parte-bis-bis {
     height: 38px;
-    width: 50%;
+    width: 30%;
     background-color: #eb8d07;
-    border-top-right-radius: 100px 100px;
-    border-bottom-right-radius:  100px 100px;
+    border-top-right-radius: 100px 120px;
+    border-bottom-right-radius:  100px 120px;
+    position: absolute;
+    z-index: 3;
+    /* left: -150px; */
+    top: -20px;
     
     
     
@@ -233,18 +237,26 @@ header
 }
 
 
+
+.imagenes-eifs-primera {
+    position: relative;
+    z-index: 1;
+}
+
+
 /* .imagenes-eifs img{
     
 
 
    
 } */
-.imagenes-eifs p {
-    box-shadow: inset 2px 0px 0px 0px #eb8d07;
+.imagenes-eifs-primera p {
+    box-shadow: inset 3px 0px 0px 0px #eb8d07;
     padding: 10px;
-    color: #474747;
+    color: black;
     font-size: 20px;
     font-weight: 500;
+  
     
 }
 
@@ -426,6 +438,11 @@ footer h2 {
 
 
 
+@media (max-width: 950px) {
+    .segunda-parte-bis-bis {
+        display: none!important;
+    }
+}
 
 @media (max-width: 450px) {
     .cuarta-parte-etapas #lista-color   {
@@ -466,4 +483,6 @@ footer h2 {
     /* footer a {
         font-size: 50px;
     } */
+    
 }
+

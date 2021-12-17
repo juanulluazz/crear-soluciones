@@ -17,7 +17,36 @@ gsap.from('.scrollPrueba', {
       trigger: '.disparadorFooter',
         start: "top center",
       end: ()=> '+=',
-    //   markers: true,
+      // markers: true,
+    },
+    x: -50,
+    // y: 100,
+    opacity: 0,
+    duration: 1,
+    // stagger: .6,
+
+  });
+
+  gsap.from('.scrollPrueba3', {
+    scrollTrigger: {
+      trigger: '.detonadorEifs',
+        start: "top center",
+      end: ()=> '+=',
+      markers: true,
+    },
+    x: -50,
+    // y: 100,
+    opacity: 0,
+    duration: 1,
+    // stagger: .6,
+
+  });
+  gsap.from('.scrollPrueba2', {
+    scrollTrigger: {
+      trigger: '.detonadorEifs2',
+        start: "top center",
+      end: ()=> '+=',
+      // markers: true,
     },
     x: -50,
     // y: 100,
