@@ -445,6 +445,11 @@ footer h2 {
 }
 
 
+.flechita{
+    --animate-duration: 2s;
+  }
+
+
 
 @media (max-width: 950px) {
     .segunda-parte-bis-bis {
