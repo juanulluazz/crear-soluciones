@@ -168,72 +168,66 @@ gsap.from('.scrollPrueba', {
 
 
 
-
-        // tl2.from('.segunda-parte', {
-        //   scrollTrigger: {
-        //     trigger: "#ventajas-parrafo",
-        //     start: "top center",
-        //     end: ()=> '+=',
-        //    markers: true,
-        //   },
-        //   y: '50%',
-        //   opacity: 0,
-        //   duration: 2,
-        //   ease: Power4.easeOut,
-        // }
+        tl2.from('.segunda-parte', {
+          y: '50%',
+          opacity: 0,
+          duration: 1,
+          ease: Power4.easeOut,
+        }
+        );
         // );
 
 
 
-//         tl2.from('.fila-animada', {
-//           scrollTrigger: {
-//             trigger: '#ventajas-parrafo',
-//             start: "top center",
-//             end: ()=> '+=',
-//             // markers: true,
-//           },
-//           y: 100,
-//           opacity: 0,
-//           duration: 1,
-//           stagger: .6,
+        tl2.from('.fila-animada', {
+          scrollTrigger: {
+            trigger: '#ventajas-parrafo',
+            start: "top center",
+            end: ()=> '+=',
+            // markers: true,
+          },
+          y: 100,
+          opacity: 0,
+          duration: 1,
+          stagger: .6,
   
-//       }, '-=1');    
-//       tl2.from('.fila-animada2', {
-//         scrollTrigger: {
-//           trigger: '.fila-animada',
-//           start: "top center",
-//           end: ()=> '+=',
-//           // markers: true,
-//         },
-//         y: 100,
-//         opacity: 0,
-//         duration: 1,
-//         stagger: .6,
+      }, '');    
+      tl2.from('.fila-animada2', {
+        scrollTrigger: {
+          trigger: '#ventajas-parrafo',
+          start: "top center",
+          end: ()=> '+=',
+          // markers: true,
+        },
+        y: 100,
+        opacity: 0,
+        duration: 1,
+        stagger: .6,
 
-//     },'-=1' );    
-//     tl2.from('.fila-animada3', {
-//       scrollTrigger: {
-//         trigger: '.fila-animada3',
-//         start: "top center",
-//         end: ()=> '+=',
-//         // markers: true,
-//       },
-//       y: 100,
-//       opacity: 0,
-//       duration: 1,
-//       stagger: .6,
+    },'-=0.5' );    
+    tl2.from('.fila-animada3', {
+      scrollTrigger: {
+        trigger: '#ventajas-parrafo',
+        start: "top center",
+        end: ()=> '+=',
+        // markers: true,
+      },
+      y: 100,
+      opacity: 0,
+      duration: 1,
+      stagger: .6,
 
-//   },'-=1' );    
-//   tl2.from('.fila-animada4', {
-//     scrollTrigger: {
-//       trigger: '.fila-animada',
-//       start: "top center",
-//       end: ()=> '+=',
-//       // markers: true,
-//     },
-//     y: 100,
-//     opacity: 0,
-//     duration: 1,
-//     stagger: .6,
+  },'-=0.5' );    
+  tl2.from('.fila-animada4', {
+    scrollTrigger: {
+      trigger: '#ventajas-parrafo',
+      start: "top center",
+      end: ()=> '+=',
+      // markers: true,
+    },
+    y: 100,
+    opacity: 0,
+    duration: 1,
+    stagger: .6,
 
-// }, '-=1');    
+}, '-=0.5');    
