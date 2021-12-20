@@ -311,6 +311,11 @@ header
     color: white;
 }
 
+
+.cuarta-parte-etapas img {
+    border-radius: 10px;
+}
+
 .imgnormalizada img {
   
     width: auto;
@@ -324,16 +329,24 @@ header
 
 .cuarta-parte-explorar{
     margin-top: 50px;
-    height: 80vh;
+  
 }
 
 .cuarta-parte-explorar p {
     font-size: 24px;
     padding-top: 10px;
-    font-weight: 600;
     text-align: center;
     color: black;
 }
+
+
+.cuarta-parte-explorar .escritorioExplorar img {
+    height: 300px;
+    width: auto;
+    border-radius: 20px;
+} 
+
+
 
 /* Quinta Parte  */
 
@@ -484,11 +497,16 @@ footer h2 {
     .imagenes-eifs-primera p {
         box-shadow: none;
         text-align: center;
+        padding-right: 0px!important;
+        padding-left: 0px!important;
+      
        
     }
     
     .parrafo-eifs {
         text-align: start!important;
+        padding-right: 0px!important;
+        padding-left: 0px!important;
     }
 
     footer h2 {
@@ -497,6 +515,9 @@ footer h2 {
     /* footer a {
         font-size: 50px;
     } */
-    
+    .cuarta-parte-explorar #explorarTexto {
+        font-size: 24px!important;
+        color: black!important;
+    }
 }
 

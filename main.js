@@ -1,8 +1,11 @@
+
+//ScrollTrigger
+
 gsap.registerPlugin(ScrollTrigger);
 const tl = gsap.timeline({
     repeat: 0,
 });
-const tl2 = gsap.timeline({
+const pl = gsap.timeline({
   repeat: 0,
 });
 
@@ -168,22 +171,22 @@ gsap.from('.scrollPrueba', {
 
 
 
-        tl2.from('.segunda-parte', {
-          y: '50%',
-          opacity: 0,
-          duration: 1,
-          ease: Power4.easeOut,
-        }
-        );
+        // pl.from('.segunda-parte', {
+        //   y: '50%',
+        //   opacity: 0,
+        //   duration: 1,
+        //   ease: Power4.easeOut,
+        // }
+        // );
         // );
 
 
 
-        tl2.from('.fila-animada', {
+        pl.from('.fila-animada', {
           scrollTrigger: {
             trigger: '#ventajas-parrafo',
             start: "top center",
-            end: ()=> '+=',
+            
             // markers: true,
           },
           y: 100,
@@ -192,11 +195,11 @@ gsap.from('.scrollPrueba', {
           stagger: .6,
   
       }, '');    
-      tl2.from('.fila-animada2', {
+      pl.from('.fila-animada2', {
         scrollTrigger: {
           trigger: '#ventajas-parrafo',
           start: "top center",
-          end: ()=> '+=',
+        
           // markers: true,
         },
         y: 100,
@@ -205,11 +208,11 @@ gsap.from('.scrollPrueba', {
         stagger: .6,
 
     },'-=0.5' );    
-    tl2.from('.fila-animada3', {
+    pl.from('.fila-animada3', {
       scrollTrigger: {
         trigger: '#ventajas-parrafo',
         start: "top center",
-        end: ()=> '+=',
+     
         // markers: true,
       },
       y: 100,
@@ -218,11 +221,14 @@ gsap.from('.scrollPrueba', {
       stagger: .6,
 
   },'-=0.5' );    
-  tl2.from('.fila-animada4', {
+
+
+
+  pl.from('.fila-animada4', {
     scrollTrigger: {
       trigger: '#ventajas-parrafo',
       start: "top center",
-      end: ()=> '+=',
+  
       // markers: true,
     },
     y: 100,
