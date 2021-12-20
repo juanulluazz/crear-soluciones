@@ -81,7 +81,7 @@ gsap.from('.scrollPrueba', {
             y: 100,
             opacity: 0,
             duration: 0.8,
-            stagger: .6,
+            stagger: .5,
     
           },'-=0.8'
           );
@@ -95,7 +95,7 @@ gsap.from('.scrollPrueba', {
             y: 100,
             opacity: 0,
             duration: 0.8,
-            stagger: .6,
+            stagger: .5,
     
           },'-=0.8' 
           );
@@ -156,7 +156,7 @@ gsap.from('.scrollPrueba', {
             duration: 0.8,
             stagger: .6,
     
-        },'-=1' );
+        },'-=0.2' );
 
 
 
