@@ -23,13 +23,10 @@ gsap.from('.scrollPrueba', {
       trigger: '.disparadorFooter',
         start: "top center",
       end: ()=> '+=',
-      // markers: true,
     },
     x: -50,
-    // y: 100,
     opacity: 0,
     duration: 1,
-    // stagger: .6,
 
   });
 
@@ -41,10 +38,8 @@ gsap.from('.scrollPrueba', {
       // markers: true,
     },
     x: -50,
-    // y: 100,
     opacity: 0,
     duration: 1,
-    // stagger: .6,
 
   });
   gsap.from('.scrollPrueba2', {
@@ -55,15 +50,10 @@ gsap.from('.scrollPrueba', {
       // markers: true,
     },
     x: -50,
-    // y: 100,
     opacity: 0,
     duration: 1,
-    // stagger: .6,
-
   });
 
-
-    
 
 
       tl.from('.contenedor-animacion', {
